@@ -1,0 +1,112 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar
+{
+    width: 100%;
+    line-height: 400%;
+    background-color: #f7d05d; 
+}
+
+.navbar i 
+{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#takenote
+{
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    height: 8vw;
+    font-size: 4vw;
+    width: 8vw; 
+    color: black;
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    position: relative;
+    margin-top: 4%;
+    right: 5%;
+}
+
+#takenote:hover
+{
+    color: rgb(95, 89, 89);
+    background-color: #f7d05d;
+    border: 2px solid #f7d05d;
+    font-size: 200%;
+}
+
+.note
+{
+    display: flex; 
+    width: fit-content;
+    display: inline-block; 
+    margin: 2%;
+    width: 20vw;
+    height: 20vw;
+    background-color: #f7d05d;
+}
+
+#operation 
+{ 
+    margin: 2%;
+    display: block; 
+    height: 10%; 
+}
+
+#operation button {
+    float: right;
+    margin: 2%;
+    width: fit-content;
+    font-size: 1.2vw;
+    padding: 0.6vw; 
+    background-color: #f7d05d;
+    border-radius: 10%;
+}
+
+#operation button:hover {
+    float: right;
+    margin: 2%;
+    width: fit-content;
+    font-size: 1.2vw;
+    padding: 0.6vw; 
+    background-color: white;
+    color: #f7d05d;
+}
+
+.notearea
+{
+    display: inline-block; 
+    width: 90%;
+    height: 68%; 
+    margin: 4%; 
+    overflow-y: auto;
+    margin-bottom: 8%;
+}
+
+textarea
+{
+    margin: 2%;
+    width: 92%;
+    height: 68%;
+    overflow-y: auto;
+    margin-bottom: 8%;
+    resize: none; 
+    padding: 2%;
+}
+
+#grid
+{ 
+    height: 240px;
+}
+
+.hidden
+{
+    display: none;
+}
