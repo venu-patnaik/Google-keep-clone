@@ -33,10 +33,10 @@ Try the app by opening the `index.html` file in any modern browser.
 ## Project Structure
 
 / (root folder)
-│
-├── index.html # Main HTML file
-├── style.css # Stylesheet for the app
-└── script.js # JavaScript functionality
+
+index.html # Main HTML file
+style.css # Stylesheet for the app
+script.js # JavaScript functionality
 
 
 ## Future Improvements
